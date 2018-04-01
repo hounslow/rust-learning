@@ -12,9 +12,11 @@
 // }
 
 fn main() {
-    let mut x = 5;
-    x = x + 1;
-    x = x * 2;
+    // let tup = (500, 6.4, 1);
+    let arr = [1, 2 ,3];
 
-    println!("The value of x is: {}", x);
+    // let (x, y, z) = tup;
+    let y = arr[2];
+
+    println!("The value of y is: {}", y);
 }
